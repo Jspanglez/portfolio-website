@@ -1,0 +1,9 @@
+/* Applies to everything */
+* {
+	font-family: sans-serif;
+}
+
+body {
+	background-color: rgb(34, 15, 247);
+	color: rgb(255, 193, 6);
+}
