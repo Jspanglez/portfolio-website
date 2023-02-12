@@ -1,9 +1,40 @@
 /* Applies to everything */
 * {
 	font-family: sans-serif;
+	color: aliceblue;
 }
 
 body {
-	background-color: rgb(34, 15, 247);
-	color: rgb(255, 193, 6);
+	background-image: url("linii-tekstura-obiom-seryi-tiomnyi-fon.jpg");
+	padding: 2em;
+}
+
+header {
+	padding: 1em;
+}
+
+div {
+	background-color: rgba(40, 40, 40, 0.7);
+	padding: 1px 20px 1px 20px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: -10%;
+}
+
+nav a {
+	color: red;
+	background-color: rgb(40, 40, 40);
+	padding: 0.6em;
+	border-radius: 0.5em;
+}
+
+
+/* Change the styles for big screens */
+@media (min-width: 900px) {
+  body {
+		background-color: black;
+	}
 }
