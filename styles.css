@@ -1,7 +1,7 @@
 /* Applies to everything */
 * {
 	font-family: sans-serif;
-	color: aliceblue;
+	color:rgb(159, 159, 159);
 }
 
 body {
@@ -13,6 +13,24 @@ header {
 	padding: 1em;
 }
 
+h1 {
+	color: white;
+}
+
+h2 {
+	font-size: medium;
+	color: rgb(159, 159, 159);
+}
+
+h2 span {
+	font-size: medium;
+	color: darkred;
+}
+
+p.line {
+	align-items: center;
+}
+
 div {
 	background-color: rgba(40, 40, 40, 0.7);
 	padding: 1px 20px 1px 20px;
@@ -20,7 +38,7 @@ div {
 
 nav {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	margin-top: -10%;
 }
 
