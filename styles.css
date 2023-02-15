@@ -73,6 +73,20 @@ nav a {
 	div {
 		/* background-image: linear-gradient(to top, #232323, #343434); */
 		background-color: rgb(30, 30, 30);
+	}
+
+	div.square {
 		box-shadow: 10px 10px 5px 0px #000000;
+	}
+
+	.my-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 10px;
+	}
+
+	.image {
+		grid-row: 1/3;
+		margin-left: 12em;
 	}
 }
