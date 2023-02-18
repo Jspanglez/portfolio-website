@@ -4,6 +4,9 @@
 	color:rgb(159, 159, 159);
 }
 
+.big-image {
+	display: none;
+}
 body {
 	/* Problem: image repeats */
 	background-image: url("27819348.jpg");
