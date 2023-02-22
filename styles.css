@@ -12,7 +12,7 @@ body {
 	/* Problem: image repeats */
 	background-image: url("27819348.jpg");
 	background-size: cover;
-	padding: 2em;
+	padding: 1em;
 }
 
 header {
