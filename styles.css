@@ -9,7 +9,6 @@
 }
 
 body {
-	/* Problem: image repeats */
 	background-image: url("27819348.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -54,6 +53,7 @@ div {
 .subheadings {
 	background-color: rgba(0,0,0,0);
 }
+
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -70,6 +70,41 @@ img {
 	max-width: 100%;
 	height: auto;
 	margin: auto;
+}
+
+.image {
+	display: flex;
+	position: relative;
+}
+
+.image::after {
+	content: ' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), black);
+}
+
+.image-text {
+	position: absolute;
+	bottom: 75px;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0);
+	color: darkred;
+	text-align: center;
+	padding: 10px;
+	font-size: 18px;
+	line-height: 2.0;
+	z-index: 1;
+}
+
+.image-text:first-line {
+	font-size: 30px;
+	color: white;
+	font-weight: 600;
 }
 
 /* Change the styles for big screens */
@@ -255,8 +290,8 @@ img {
 		font-size: 125%;
 	}
 	
-	.big-image {
+	/* .big-image {
 		display: none;
-	}
+	} */
 }
 
