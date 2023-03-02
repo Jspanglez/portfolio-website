@@ -51,6 +51,9 @@ div {
 	padding: 1px 20px 1px 20px;
 }
 
+.subheadings {
+	background-color: rgba(0,0,0,0);
+}
 nav {
 	display: flex;
 	justify-content: space-between;
