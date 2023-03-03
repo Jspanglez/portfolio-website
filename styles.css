@@ -80,6 +80,15 @@ nav a {
 	text-align: center;
 	/* border-radius: 0.5em; */
 }
+
+nav a:nth-child(even) {
+	background-color: rgb(33, 33, 33);
+}
+
+nav a:active {
+  background-color: darkred;
+}
+
 }
 
 img {
