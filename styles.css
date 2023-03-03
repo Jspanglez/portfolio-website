@@ -108,6 +108,7 @@ img {
 .image {
 	display: flex;
 	position: relative;
+	z-index: 1;
 }
 
 .image::after {
@@ -122,20 +123,20 @@ img {
 
 .image-text {
 	position: absolute;
-	bottom: 75px;
+	bottom: 4vw;
 	left: 0;
 	width: 100%;
 	background-color: rgba(0,0,0,0);
 	color: darkred;
 	text-align: center;
 	padding: 10px;
-	font-size: 18px;
+	font-size: 3vw;
 	line-height: 2.0;
 	z-index: 1;
 }
 
 .image-text:first-line {
-	font-size: 30px;
+	font-size: 4vw;
 	color: white;
 	font-weight: 600;
 }
