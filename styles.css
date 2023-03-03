@@ -56,7 +56,21 @@ div {
 
 nav {
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
+	font-size: larger;
+	position: fixed;
+	z-index: 2;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	/* bottom: 0; */
+	transform: translateX(100vw);
+	transition: 0.5s;
+	background-color: rgb(40, 40, 40);
+}
+
+nav.open {
+	transform: translateX(0);
 }
 
 nav a {
