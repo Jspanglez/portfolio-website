@@ -222,6 +222,9 @@ img {
 }
 
 @media (min-width: 1520px) {
+	header {
+		visibility: hidden;
+	}
 	body {
 		padding: 90px;
 		padding-left: 150px;
