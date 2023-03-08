@@ -315,12 +315,21 @@ img {
 		font-size: xx-large;
 	}
 
+	div.square {
+		margin-top: 3em;
+	}
 	.subheadings {
 		margin-left: -0.75em;
 	}
 
 	.subheadings, section {
 		font-size: 125%;
+	}
+
+	.big-image {
+		width: 400px;
+		height: 700px;
+		margin-left: -44em;
 	}
 	
 	/* .big-image {
