@@ -143,10 +143,6 @@ img {
 
 /* Change the styles for big screens */
 @media (min-width: 900px) {
-	header {
-		visibility: hidden;
-	}
-
   body {
 		margin-top: -1em;
 	}
