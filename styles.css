@@ -45,7 +45,7 @@ hr {
 	border: 1px solid rgb(159, 159, 159);
 }
 
-div {
+.square {
 	background-color: rgba(40, 40, 40, 0.7);
 	padding: 1px 20px 1px 20px;
 }
@@ -174,12 +174,8 @@ label {
 		margin-top: -1em;
 	}
 
-	div {
-		/* background-image: linear-gradient(to top, #232323, #343434); */
+	.square {
 		background-color: rgb(30, 30, 30);
-	}
-
-	div.square {
 		box-shadow: 10px 10px 5px 0px #000000;
 	}
 
