@@ -50,10 +50,6 @@ hr {
 	padding: 1px 20px 1px 20px;
 }
 
-.fourth .square {
-	height: 100vh;
-}
-
 .subheadings {
 	background-color: rgba(0,0,0,0);
 }
@@ -210,6 +206,7 @@ textarea.error {
 	align-self: center;
 	margin: 1em;
 }
+
 /* Change the styles for big screens */
 @media (min-width: 900px) {
   body {
