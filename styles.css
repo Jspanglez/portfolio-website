@@ -170,6 +170,10 @@ textarea {
 	resize: none;
 }
 
+textarea.error {
+	outline: 2px solid red;
+}
+
 .contact {
 	display: flex;
   flex-direction: column;
