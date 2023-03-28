@@ -275,7 +275,7 @@ textarea {
 		visibility: hidden;
 	}
 
-	body {
+	.first body {
 		padding: 90px;
 		padding-left: 150px;
 		padding-right: 150px;
@@ -290,7 +290,7 @@ textarea {
 		/* font-size: x-small; */
 	}
 
-	div.square {
+	.first .square {
 		padding-left: 50%;
 		/* height: 700px; */
 		max-height: 100%;
@@ -305,6 +305,7 @@ textarea {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
+
 	.contact button {
 		width: 10%;
 		padding: 1em;
@@ -316,6 +317,8 @@ textarea {
 		align-self: center;
 		margin: 1em;
 	}
+
+	.first h1 {
 		margin-top: -19em;
 	}
 
