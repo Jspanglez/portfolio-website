@@ -161,6 +161,10 @@ img {
   align-items: left;
 }
 
+textarea {
+	resize: none;
+}
+
 .contact {
 	display: flex;
   flex-direction: column;
