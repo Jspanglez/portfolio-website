@@ -292,7 +292,14 @@ textarea {
 		margin-top: -1.1em;
 	}
 
-	h1 {
+	.fourth .square {
+		zoom: 0.7;
+	}
+
+	.myInputs {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 		margin-top: -19em;
 	}
 
