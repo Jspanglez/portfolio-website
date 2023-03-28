@@ -300,6 +300,17 @@ textarea {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
+	.contact button {
+		width: 10%;
+		padding: 1em;
+		background-color: transparent;
+		border: none;
+		outline: 3px solid black;
+		cursor: pointer;
+		font-size: large;
+		align-self: center;
+		margin: 1em;
+	}
 		margin-top: -19em;
 	}
 
