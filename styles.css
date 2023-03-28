@@ -330,12 +330,8 @@ textarea.error {
 		width: 10%;
 		padding: 1em;
 		background-color: transparent;
-		border: none;
-		outline: 3px solid black;
-		cursor: pointer;
-		font-size: large;
-		align-self: center;
-		margin: 1em;
+		outline: 3px solid white;
+		color: white;
 	}
 
 	.first h1 {
