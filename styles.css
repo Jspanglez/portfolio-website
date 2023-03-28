@@ -199,6 +199,17 @@ textarea.error {
 	/* margin-left: 2em; */
 }
 
+.contact button {
+	padding: 0.5em;
+	background-color: darkred;
+	border: none;
+	border-radius: 5px;
+	outline: 2px solid black;
+	cursor: pointer;
+	font-size: large;
+	align-self: center;
+	margin: 1em;
+}
 /* Change the styles for big screens */
 @media (min-width: 900px) {
   body {
