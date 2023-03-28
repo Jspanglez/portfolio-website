@@ -151,6 +151,10 @@ img {
 	font-weight: 600;
 }
 
+.formTitle {
+	text-align: center;
+}
+
 .myInputs {
 	display: flex;
   flex-direction: column;
