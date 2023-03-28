@@ -107,6 +107,11 @@ nav a:active {
 	padding-right: 0.3em;
 	padding-bottom: 0.3em;
 	border-radius: 5px;
+	transition: transform 0.2s ease-in-out;
+}
+
+.hamburger.active {
+  transform: scale(0.8);
 }
 
 img {
