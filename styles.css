@@ -310,6 +310,10 @@ textarea.error {
 		grid-template-columns: 1fr 1fr;
 	}
 
+	textarea {
+		font-size: 18px;
+	}
+
 	.contact button {
 		width: 10%;
 		padding: 1em;
