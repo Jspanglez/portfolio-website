@@ -16,3 +16,19 @@ submit.addEventListener("click", function() {
     }
   }
 });
+
+const form = document.getElementById('myForm');
+
+form.addEventListener('submit', function(e) {
+  e.preventDefault(); // Prevent the page from refreshing
+
+  const name = document.getElementById('myName').value;
+  const email = document.getElementById('myEmail').value;
+  const message = document.getElementById('myMessage').value;
+
+  localStorage.setItem('name', name);
+  localStorage.setItem('email', email);
+  localStorage.setItem('message', message);
+
+  form.reset();
+});
