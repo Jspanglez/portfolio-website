@@ -315,13 +315,17 @@ textarea.error {
 		zoom: 0.7;
 	}
 
-	.myInputs {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
+	.fourth .square span {
+		font-size: 24px;
+	}
+
+	.fourth h1 {
+		font-size: 48px;
 	}
 
 	textarea {
-		font-size: 18px;
+		font-size: 24px;
+	}
 	}
 
 	.contact button {
