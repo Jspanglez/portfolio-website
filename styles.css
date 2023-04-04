@@ -331,6 +331,11 @@ textarea.error {
 		color: white;
 		font-size: 28px;
 	}
+
+	.formTitle {
+		font-size: 36px;
+		font-family: 'Nunito', sans-serif;
+		font-weight: 100;
 	}
 
 	.first h1 {
