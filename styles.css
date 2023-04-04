@@ -326,10 +326,11 @@ textarea.error {
 
 	.contact button {
 		width: 10%;
-		padding: 1em;
 		background-color: transparent;
 		outline: 3px solid white;
 		color: white;
+		font-size: 28px;
+	}
 	}
 
 	.first h1 {
