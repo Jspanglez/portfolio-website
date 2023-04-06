@@ -211,6 +211,38 @@ textarea.error {
 	margin: 1em;
 }
 
+#repos div {
+	background-color: navy;
+	border-radius: 30px;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	outline: 3px solid black;
+	box-sizing: border-box;
+}
+
+#repos h3 {
+	color: white;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	background-color: black;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+#repos p {
+	color: white;
+	padding-top: 1em;
+}
+
+#repos a {
+	color: aqua;
+}
+
+#repos h3, p {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
 /* Change the styles for big screens */
 @media (min-width: 900px) {
   body {
