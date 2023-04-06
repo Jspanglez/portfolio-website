@@ -7,6 +7,8 @@ fetch('https://api.github.com/users/Jspanglez/repos', {
   .then(data => {
     const container = document.getElementById('repos');
     data.forEach(repo => {
+
+      /* Create the div to conatin the data */
       const repoElement = document.createElement('div');
 
       /* Create the initial format for the GitHub repo */
@@ -32,6 +34,8 @@ fetch('https://api.github.com/users/Jspanglez/repos', {
         </div>
       `;
 
+      /* Add the created HTML to the div and append it
+      to the element created in page2.html */
       repoElement.innerHTML = html;
       container.appendChild(repoElement);
     });
