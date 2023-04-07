@@ -236,6 +236,7 @@ textarea.error {
 
 #repos a {
 	color: aqua;
+	word-break: break-word;
 }
 
 #repos h3, p {
