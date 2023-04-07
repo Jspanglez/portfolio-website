@@ -316,6 +316,11 @@ textarea.error {
 }
 
 @media (min-width: 1020px) {
+
+	header {
+		visibility: hidden;
+	}
+
 	.subheadings {
 		font-size: larger;
 	}
@@ -329,9 +334,6 @@ textarea.error {
 }
 
 @media (min-width: 1520px) {
-	header {
-		visibility: hidden;
-	}
 
 	.first body {
 		padding: 90px;
