@@ -483,6 +483,15 @@ textarea.error {
 		height: 100%;
 		object-fit: cover;
 	}
+
+	#repos {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+	#repos div {
+		width: 350px;
+		height: 320px;
+	}
 }
 
 @media (min-width: 1800px) {
