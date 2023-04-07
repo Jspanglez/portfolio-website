@@ -305,6 +305,14 @@ textarea.error {
 		margin: 0;
 		line-height: 1.5;
 	} */
+
+	#repos {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 70%;
+		margin: 0 auto;
+	}
 }
 
 @media (min-width: 1020px) {
