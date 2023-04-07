@@ -328,6 +328,24 @@ textarea.error {
 	.description {
 		font-size: large;
 	}
+
+	#repos {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1em;
+		margin-bottom: 2em;
+		width: 50%;
+		height: 50%;
+	}
+
+	#repos div {
+		width: 400px;
+		height: 320px;
+	}
+
+	#repos h3 {
+		margin-top: -1em;
+	}
 }
 
 @media (min-width: 1300px) {
