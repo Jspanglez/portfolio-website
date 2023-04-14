@@ -5,11 +5,15 @@ submit.addEventListener("click", function() {
   for (let i = 0; i < textareas.length; i++) {
     const textarea = textareas[i];
     if (textarea.value === "") {
-      textarea.classList.add("error")
+      textarea.classList.add("error");
     } else {
       textarea.classList.remove("error");
     }
   }
+
+  setTimeout(function() {
+    alert("Thank you! Your message has been sent!");
+  }, 100);
 });
 
 const form = document.getElementById('myForm');
