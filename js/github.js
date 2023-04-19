@@ -14,7 +14,7 @@ fetch('https://api.github.com/users/Jspanglez/repos', {
       /* Create the initial format for the GitHub repo */
       let html = `
         <div>
-          <h3>${repo.name}</h3>`;
+          <h3>${repo.name} <i class="fa-brands fa-github fa-lg github-icon" style="color: white;"></i></h3>`;
 
       /* Do not make an element for the decription
       or the language if they are null */
