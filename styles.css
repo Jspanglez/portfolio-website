@@ -240,6 +240,11 @@ textarea.error {
 	outline: 3px solid black;
 }
 
+#repos i {
+	float: right;
+	margin-top: 10px;
+}
+
 #repos h3 {
 	color: white;
 	padding-top: 0.5em;
