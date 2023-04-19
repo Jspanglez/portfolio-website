@@ -157,6 +157,27 @@ img {
 	font-weight: 600;
 }
 
+.iconContainer {
+	display: flex;
+}
+
+.third h3 {
+	padding-left: 16px;
+	margin-right: 10px;
+}
+
+.third p {
+	margin-top: 0;
+}
+
+.iconContainer i {
+	margin-top: 31px;
+}
+
+.android-icon {
+	padding-top: 3px;
+}
+
 .formTitle {
 	text-align: center;
 }
