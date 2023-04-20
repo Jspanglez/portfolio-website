@@ -42,6 +42,14 @@ h2 span {
 	color: var(--myColour);
 }
 
+.description {
+	padding-left: 0%;
+}
+
+.first p {
+	padding-left: 0%;
+}
+
 h3 {
 	color: white;
 }
