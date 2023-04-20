@@ -276,7 +276,6 @@ textarea.error {
 	padding-right: 1em;
 }
 
-/* Change the styles for big screens */
 @media (min-width: 900px) {
   body {
 		margin-top: -1em;
@@ -414,7 +413,7 @@ textarea.error {
 	.big-image {
 		display: block;
 		margin-left: 13em;
-		/* bottom: 1em; */
+		bottom: 1em;
 		width: 500px;
 		height: 825px;
 		margin-right: 20px;
@@ -442,13 +441,13 @@ textarea.error {
 		color: var(--myColour);
 		text-align: center;
 		padding: 10px;
-		font-size: 18px;
+		font-size: 30px;
 		line-height: 2.0;
 		z-index: 1;
 	}
 
 	.image-text:first-line {
-		font-size: 30px;
+		font-size: 40px;
 		color: white;
 		font-weight: 600;
 	}
@@ -516,6 +515,9 @@ textarea.error {
 
 	#repos {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
+		width: 100%;
+		justify-content: space-between;
+		margin: 0%;
 	}
 
 	#repos div {
