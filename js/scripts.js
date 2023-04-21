@@ -1,6 +1,9 @@
 menuToggler.addEventListener('click', ev => {
   menu.classList.toggle('open');
   menuToggler.classList.toggle('active');
+  setTimeout(() => {
+    menuToggler.classList.toggle('active');
+  }, 200);
 });
 
 let color;
