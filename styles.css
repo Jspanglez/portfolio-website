@@ -439,20 +439,23 @@ textarea.error {
 	}
 
 	.first .square {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
+		/* display: grid;
+		grid-template-columns: 1fr 1fr; */
+		display: flex;
+		gap: 10em;
 		zoom: 0.8;
 	}
 
 	.text {
 		font-size: 20px;
+		width: 70%;
 	}
 	
 	.big-image {
 		display: block;
-		margin-left: 13em;
+		/* margin-left: 4em; */
 		bottom: 1em;
-		width: 500px;
+		width: 600px;
 		height: 825px;
 		margin-right: 20px;
 		position: relative;
@@ -580,15 +583,5 @@ textarea.error {
 	.subheadings, section {
 		font-size: 125%;
 	}
-
-	.big-image {
-		width: 400px;
-		height: 700px;
-		margin-left: -44em;
-	}
-	
-	/* .big-image {
-		display: none;
-	} */
 }
 
