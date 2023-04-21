@@ -115,7 +115,7 @@ nav a:active {
 }
 
 .hamburger {
-	height: 3%;
+	height: 2%;
 	background-color: var(--myColour);
 	font-size: x-large;
 	position: fixed;
