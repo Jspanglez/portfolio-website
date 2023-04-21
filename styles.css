@@ -13,6 +13,11 @@
 	display: none;
 }
 
+.icons {
+	display: none;
+	margin-top: 30px;
+}
+
 body {
 	background-image: url("27819348.jpg");
 	background-size: cover;
@@ -371,6 +376,10 @@ textarea.error {
 
 @media (min-width: 1020px) {
 
+	.icons {
+		display: block;
+	}
+
 	header {
 		visibility: hidden;
 	}
@@ -416,6 +425,13 @@ textarea.error {
 		padding-right: 150px;
 		overflow: hidden;
 		/* zoom: 0.9; */
+	}
+
+	.icons {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin-bottom: 30px;
 	}
 
 	div.subheadings {
