@@ -284,6 +284,17 @@ textarea.error {
 	padding-right: 1em;
 }
 
+.nav-icon {
+	/* display: none !important; */
+	float: right;
+	color: var(--myColour);
+	padding: 10px;
+}
+
+.fourth .nav-icon {
+	padding: 20px;
+}
+
 @media (min-width: 900px) {
   body {
 		margin-top: -1em;
