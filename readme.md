@@ -12,15 +12,15 @@ The content has been organised in a way that makes it easy for my target audienc
 I have adapted my site for different screen sizes by using media queries. The CSS is done in a mobile-first approach and the first change to the CSS is when the screen is 900px. Other media queries include 1020px, 1300px, 1520px, and 1800px.
 
 # References:
-## Background image: 
+**Background image:** 
 https://www.vectorstock.com/royalty-free-vector/dark-background-black-and-grey-striped-pattern-vector-27819348
 
-## Image Gradient:
+**Image Gradient:**
 https://www.youtube.com/watch?v=mT10ZJdlh9Y
 
-## Fetch (GitHub API):
+**Fetch (GitHub API):**
 https://www.youtube.com/watch?v=cuEtnrL9-H0
 https://www.pluralsight.com/guides/using-fetch-with-github-api-v3
 
-## Icons:
+**Icons:**
 fontawesome.com
