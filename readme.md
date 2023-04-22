@@ -23,4 +23,4 @@ https://www.youtube.com/watch?v=cuEtnrL9-H0
 https://www.pluralsight.com/guides/using-fetch-with-github-api-v3
 
 **Icons:**
-fontawesome.com
+https://fontawesome.com
