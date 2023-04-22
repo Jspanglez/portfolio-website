@@ -302,7 +302,7 @@ textarea.error {
 	padding: 20px;
 }
 
-@media (min-width: 900px) {
+@media screen and (min-width: 900px) {
   body {
 		margin-top: -1em;
 	}
@@ -369,7 +369,7 @@ textarea.error {
 	}
 }
 
-@media (min-width: 1020px) {
+@media screen and (min-width: 1020px) {
 
 	.icons {
 		display: block;
@@ -406,13 +406,13 @@ textarea.error {
 	}
 }
 
-@media (min-width: 1300px) {
+@media screen and (min-width: 1300px) {
 	footer {
 		display: block;
 	}
 }
 
-@media (min-width: 1520px) {
+@media screen and (min-width: 1520px) {
 
 	.first body {
 		padding: 90px;
@@ -562,7 +562,7 @@ textarea.error {
 	}
 }
 
-@media (min-width: 1800px) {
+@media screen and (min-width: 1800px) {
 	h2 {
 		font-size: xx-large;
 	}
