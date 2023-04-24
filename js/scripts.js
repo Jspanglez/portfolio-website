@@ -16,7 +16,7 @@ else if (window.location.pathname.includes('/page2.html')) {
 } 
 
 else if (window.location.pathname.includes('/page3.html')) {
-  color = 'indigo';
+  color = '#6115e6';
 } 
 
 else if (window.location.pathname.includes('/page4.html')) {
