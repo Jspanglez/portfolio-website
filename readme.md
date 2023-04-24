@@ -13,14 +13,19 @@ I have adapted my site for different screen sizes by using media queries. The CS
 
 # References
 **Background image:** 
+
 https://www.vectorstock.com/royalty-free-vector/dark-background-black-and-grey-striped-pattern-vector-27819348
 
 **Image Gradient:**
+
 https://www.youtube.com/watch?v=mT10ZJdlh9Y
 
 **Fetch (GitHub API):**
+
 https://www.youtube.com/watch?v=cuEtnrL9-H0
+
 https://www.pluralsight.com/guides/using-fetch-with-github-api-v3
 
 **Icons:**
+
 https://fontawesome.com
