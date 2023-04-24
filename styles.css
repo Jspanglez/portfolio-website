@@ -14,7 +14,7 @@
 }
 
 .icons {
-	display: none;
+	/* display: none; */
 	margin-top: 30px;
 }
 
@@ -239,7 +239,6 @@ textarea.error {
 	background-color: darkgray;
 	padding: 0.5em;
 	width: 100%;
-	/* margin-left: 2em; */
 }
 
 .contact button {
@@ -292,7 +291,7 @@ textarea.error {
 }
 
 .nav-icon {
-	/* display: none !important; */
+	display: none !important;
 	float: right;
 	color: var(--myColour);
 	padding: 10px;
@@ -347,15 +346,6 @@ textarea.error {
 		margin-bottom: 0.5em;
 	}
 
-	/* h3 {
-		margin-bottom: 0.5em;
-	}
-	
-	p {
-		margin: 0;
-		line-height: 1.5;
-	} */
-
 	.third h3, p {
 		padding-left: 5px;
 	}
@@ -371,8 +361,8 @@ textarea.error {
 
 @media screen and (min-width: 1020px) {
 
-	.icons {
-		display: block;
+	.nav-icon {
+		display: block !important;
 	}
 
 	header {
@@ -419,7 +409,6 @@ textarea.error {
 		padding-left: 150px;
 		padding-right: 150px;
 		overflow: hidden;
-		/* zoom: 0.9; */
 	}
 
 	.icons {
@@ -434,8 +423,6 @@ textarea.error {
 	}
 
 	.first .square {
-		/* display: grid;
-		grid-template-columns: 1fr 1fr; */
 		display: flex;
 		gap: 10em;
 		zoom: 0.8;
@@ -448,7 +435,6 @@ textarea.error {
 	
 	.big-image {
 		display: block;
-		/* margin-left: 4em; */
 		bottom: 1em;
 		width: 600px;
 		height: 825px;
