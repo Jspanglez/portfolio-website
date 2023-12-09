@@ -7,7 +7,7 @@ menuToggler.addEventListener('click', ev => {
 });
 
 let color;
-if (window.location.pathname === '/index.html') {
+if (window.location.pathname.includes('/index.html')) {
   color = 'darkred';
 } 
 
