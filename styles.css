@@ -352,10 +352,11 @@ textarea.error {
 
 	#repos {
 		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		width: 70%;
-		margin: 0 auto;
+		flex-wrap: wrap;
+	}
+
+	#repos p {
+		padding-left: 1em;
 	}
 }
 
@@ -377,10 +378,13 @@ textarea.error {
 		font-size: large;
 	}
 
+	.square {
+		zoom: 90%;
+	}
+
 	#repos {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-gap: 1em;
 		margin-bottom: 2em;
 		width: 50%;
 		height: 50%;
@@ -398,7 +402,11 @@ textarea.error {
 
 @media screen and (min-width: 1300px) {
 	footer {
-		display: block;
+		display: contents;
+	}
+
+	.square {
+		margin-bottom: 1em;
 	}
 }
 
